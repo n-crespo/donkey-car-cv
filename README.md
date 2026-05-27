@@ -11,3 +11,4 @@
   - `COLOR_THRESHOLD_HIGH`: changed to orange(ish) from yellow
   - `COLOR_THRESHOLD_LOW`: changed to orange(ish) from yellow
 - reference: <https://docs.donkeycar.com/guide/computer_vision/computer_vision/>
+- start web server: `python3 manage.py drive`
