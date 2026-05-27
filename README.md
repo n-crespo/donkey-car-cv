@@ -14,6 +14,4 @@
 - Pi pin reference: <https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#gpio>
 - start web server: `python3 manage.py drive`
 
-
-
 https://github.com/user-attachments/assets/4f938262-308f-4698-99f0-2ce6b5d4b32c
