@@ -1,0 +1,12 @@
+- battery was not fully charged (something like ~8.2V)
+- when switching to Full Auto in web interface, car must start with line in view
+- the min/max throttle had to be tuned to keep car speed stable
+- the following values in [config.py](./config.py) had to be tuned
+  - `THROTTLE_MAX`: had to be reduced quite a bit
+  - `THROTTLE_MIN`: had to be increased quite a bit
+  - `THROTTLE_STEP`: was reduced
+  - `MAX_STEERING_ANGLE`: was increased
+  - `CAMERA_VFLIP`: was set to true to flip camera
+  - `CAMERA_HFLIP`: was set to true to flip camera
+  - `COLOR_THRESHOLD_HIGH`: changed to orange(ish) from yellow
+  - `COLOR_THRESHOLD_LOW`: changed to orange(ish) from yellow
