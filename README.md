@@ -10,6 +10,12 @@
   - `CAMERA_HFLIP`: was set to true to flip camera
   - `COLOR_THRESHOLD_HIGH`: changed to orange(ish) from yellow
   - `COLOR_THRESHOLD_LOW`: changed to orange(ish) from yellow
+- the following values in [myconfig.py](./myconfig.py) had to be changed
+  - `"STEERING_LEFT_PWM": 580`
+  - `"STEERING_RIGHT_PWM": 300`
+  - `"THROTTLE_FORWARD_PWM": 500`
+  - `"THROTTLE_STOPPED_PWM": 300`
+  - `"THROTTLE_REVERSE_PWM": 220`
 - CV reference: <https://docs.donkeycar.com/guide/computer_vision/computer_vision/>
 - Pi pin reference: <https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#gpio>
 - start web server: `python3 manage.py drive`
