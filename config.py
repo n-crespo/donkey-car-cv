@@ -4,14 +4,13 @@ PATH FOLLOWING: 'path_follow' template configurations
 # This file is read by your car application's manage.py script to change the car
 # performance
 
-# If desired, all config overrides can be specified here. 
+# If desired, all config overrides can be specified here.
 # The update operation will not touch this file.
 # """
 
 import os
 
 
-import os
 
 #
 # FILE PATHS
@@ -568,8 +567,8 @@ SCAN_HEIGHT = 20      # num pixels high to grab from horiz scan
 # COLOR_THRESHOLD_HIGH = (50, 255, 255) # HSV light yellow (opencv HSV hue value is 0..179, saturation and value are both 0..255)
 
 # changed to orange
-COLOR_THRESHOLD_LOW  = (5, 50, 50)    # HSV dark yellow (opencv HSV hue value is 0..179, saturation and value are both 0..255)
-COLOR_THRESHOLD_HIGH = (15, 255, 255) # HSV light yellow (opencv HSV hue value is 0..179, saturation and value are both 0..255)
+COLOR_THRESHOLD_LOW  = (5, 50, 50)
+COLOR_THRESHOLD_HIGH = (15, 255, 255)
 
 # LineFollower - target (expected) line position and detection thresholds
 TARGET_PIXEL = None   # In not None, then this is the expected horizontal position in pixels of the yellow line.
